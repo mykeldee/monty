@@ -62,3 +62,19 @@ At the end of this project, We were able to solve these questions:
 - GLIBC 2.24
 - gcc 4.8.4
 - betty linter 0.32
+
+
+
+### Try It On Your Machine computer:	
+```bash
+git clone https://github.com/edward0rtiz/holbertonschool-low_level_programming.git
+cd monty
+gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+USAGE
+cat -e bytecodes/000.m
+
+FORT TESTING WITH BYTECODES:
+cd bytecodes
+cat bytecodes/FILENAME.m
+./monty bytecodes/FILENAME.m
+```
